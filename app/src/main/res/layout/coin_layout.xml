@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/coin"/>
+
+    <ImageView
+        android:id="@+id/image_wallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/wallet"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/version"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@id/image_wallet"
+        android:layout_toEndOf="@id/image_wallet"/>
+
+
+    <Button
+        android:id="@+id/startA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start_Animator"/>
+</RelativeLayout>
