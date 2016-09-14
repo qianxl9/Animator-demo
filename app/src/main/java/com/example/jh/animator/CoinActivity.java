@@ -4,6 +4,7 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -68,7 +69,6 @@ public class CoinActivity extends AppCompatActivity {
         totran.addListener(animatorA);
         scalXY.addListener(animatorA);
         teleportA.addListener(animatorA);
-
         teleportA.start();
     }
 
